@@ -1,7 +1,7 @@
 import psycopg2
 from psycopg2 import OperationalError
 
-conn = psycopg2.connect(host="127.0.0.1", port="5454", user="postgres", password="VJZk.,bvfzvfvf1310++", dbname="demo")
+conn = psycopg2.connect(host="127.0.0.1", port="5454", user="postgres", password="", dbname="demo")
 
 def execute_read_query(conn, query):
     cursor = conn.cursor()
